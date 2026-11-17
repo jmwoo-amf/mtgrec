@@ -30,8 +30,6 @@ Claude Code 에서:
 /plugin install rec@mtgrec
 ```
 
-private 저장소이므로 GitHub 에 이 저장소 접근 권한이 있어야 합니다 (`gh auth status` 로 확인).
-
 그다음 설정 마법사를 실행합니다. 플러그인 스킬이라 명령이 `/rec:rec` 으로 보일 수 있습니다. "rec 설정해줘" 라고 말해도 됩니다.
 
 ```
