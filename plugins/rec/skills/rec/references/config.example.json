@@ -1,0 +1,54 @@
+{
+  "storage": "~/Recordings/mtgrec",
+  "owner": "홍길동",
+  "email": "me@example.com",
+  "notion": {
+    "enabled": true,
+    "dataSource": "collection://00000000-0000-0000-0000-000000000000",
+    "icon": "📝",
+    "properties": {
+      "태그": [
+        "회의록"
+      ]
+    },
+    "inferred": {}
+  },
+  "title": {
+    "format": "[{date} {time}] {attendees} | {topic}",
+    "calendarPrefixPattern": "^(\\[[^\\]]*\\]\\s*)+"
+  },
+  "attendees": {
+    "internalDomains": [
+      "example.com"
+    ],
+    "people": {
+      "me@example.com": "기획",
+      "dev@example.com": "개발"
+    },
+    "groups": [
+      {
+        "roles": [
+          "기획",
+          "개발"
+        ],
+        "label": "팀 전체"
+      },
+      {
+        "roles": [
+          "기획"
+        ],
+        "label": "기획"
+      },
+      {
+        "roles": [
+          "개발"
+        ],
+        "label": "개발"
+      }
+    ],
+    "orgAliases": {},
+    "fallback": "내부"
+  },
+  "style": [],
+  "handoff": ""
+}

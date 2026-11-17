@@ -1,0 +1,22 @@
+{
+  "terms": [
+    "LiDAR",
+    "Point Cloud",
+    "FOV",
+    "SDK",
+    "ROS",
+    "PoC"
+  ],
+  "replacements": {
+    "라이다": "LiDAR",
+    "에프오브이": "FOV",
+    "에스디케이": "SDK",
+    "피오씨": "PoC",
+    "포인트 클라우드": "Point Cloud",
+    "로스 투": "ROS 2"
+  },
+  "glossary": {
+    "ROS": "로봇 소프트웨어 프레임워크. 「로스」로 나온다. 손실을 뜻하는 「로스」(재고 로스, 시간 로스)는 그대로 둔다",
+    "Point Cloud": "LiDAR 가 내는 3D 점 데이터. 「클라우드」만 나올 때 밀도 · 노이즈 · 프레임을 말하면 Point Cloud 이고, 서버 · 저장 공간을 말하면 그대로 둔다"
+  }
+}

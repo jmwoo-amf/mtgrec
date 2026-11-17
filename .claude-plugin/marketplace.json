@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mtgrec",
+  "description": "회의를 맥에서 로컬 녹음하고 온디바이스로 전사해 요약과 Notion 회의록까지 만드는 Claude Code 스킬",
+  "owner": { "name": "jmwoo-amf" },
+  "plugins": [
+    {
+      "name": "rec",
+      "description": "회의 로컬 녹음 · 온디바이스 전사 · 용어 보정 · 실시간 노트 · 요약 · Notion 회의록. /rec setup 으로 사용자별 설정을 만든다",
+      "category": "productivity",
+      "source": "./plugins/rec"
+    }
+  ]
+}

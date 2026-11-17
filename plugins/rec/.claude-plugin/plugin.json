@@ -1,0 +1,6 @@
+{
+  "name": "rec",
+  "description": "회의 로컬 녹음 · 온디바이스 전사 · 용어 보정 · 실시간 노트 · 요약 · Notion 회의록",
+  "version": "1.0.0",
+  "author": { "name": "jmwoo-amf" }
+}
